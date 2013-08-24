@@ -1,0 +1,30 @@
+﻿Build started 20.04.2012 15:40:05.
+Project "D:\Cube\Cube\Cube.vcxproj" on node 2 (Build target(s)).
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Cube.cpp
+  Cube.cpp
+D:\\Common\\LoadTGA.c(52): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          C:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+  C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Cube\Release\Cube.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Cube.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Cube\Release\Cube.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Cube\Release\Cube.lib" /MACHINE:X86 /SAFESEH Release\Cube.obj
+  Generating code
+  Finished generating code
+glut32.lib(glut32.dll) : error LNK2026: module unsafe for SAFESEH image.
+glut32.lib(glut32.dll) : error LNK2026: module unsafe for SAFESEH image.
+glut32.lib(glut32.dll) : error LNK2026: module unsafe for SAFESEH image.
+glut32.lib(glut32.dll) : error LNK2026: module unsafe for SAFESEH image.
+glut32.lib(glut32.dll) : error LNK2026: module unsafe for SAFESEH image.
+glut32.lib(glut32.dll) : error LNK2026: module unsafe for SAFESEH image.
+glut32.lib(glut32.dll) : error LNK2026: module unsafe for SAFESEH image.
+glut32.lib(glut32.dll) : error LNK2026: module unsafe for SAFESEH image.
+glut32.lib(glut32.dll) : error LNK2026: module unsafe for SAFESEH image.
+glut32.lib(glut32.dll) : error LNK2026: module unsafe for SAFESEH image.
+glut32.lib(glut32.dll) : error LNK2026: module unsafe for SAFESEH image.
+glut32.lib(glut32.dll) : error LNK2026: module unsafe for SAFESEH image.
+glut32.lib(glut32.dll) : error LNK2026: module unsafe for SAFESEH image.
+glut32.lib(glut32.dll) : error LNK2026: module unsafe for SAFESEH image.
+glut32.lib(glut32.dll) : error LNK2026: module unsafe for SAFESEH image.
+D:\Cube\Release\Cube.exe : fatal error LNK1281: Unable to generate SAFESEH image.
+Done Building Project "D:\Cube\Cube\Cube.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:09.69
